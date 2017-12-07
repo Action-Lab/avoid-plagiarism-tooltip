@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>jQuery Tooltip Template</title>
+  <title>Avoid Plagiarism Tooltip</title>
 
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link rel="stylesheet" href="tippy/tippy.css">
@@ -11,7 +11,7 @@
 
   <style>
     html {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
 
     body {
@@ -22,65 +22,43 @@
       line-height: 1.4em;
       font-family: 'PT Sans', sans-serif;
     }
+/*  Span border-bottom property is commented-out to hide it here. Other options: dotted, solid, dashed
 
     span {
-      /*
-       Remove border-bottom property if you don't want any underlining.
-       Set its size in pixels and type (e.g. dotted, solid, dashed).
-      */
       border-bottom: 3px dotted;
     }
+*/
+
   </style>
 </head>
 
 <body>
 
-  <h1>Excerpt from Chapter 1</h1>
+  <h1>Avoid Plagiarism Tooltip template</h1>
+  <h2>Did the authors plagiarize?</h2>
+  <h3>Float your cursor over suspected text or 'HINT' to find out</h3>
+  <p>View the <a href='https://github.com/Action-Lab/avoid-plagiarism-tooltip'>open-source code</a>. Text adapted from <a href='http://www.trincoll.edu/SiteCollectionDocuments/StudentHandbook.pdf'> Trinity Student Handbook</a>, with MLA citation style<p>
 
   <p>
-    “I want to attempt a thing like that and am frightened by these
-    <span title="things of little value or importance">trifles</span>,”
-    he thought, with an odd smile. “Hm... yes, all is in a
-    man’s hands and he lets it all slip from cowardice, that’s
-    an axiom. It would be interesting to know what it is men are
-    most afraid of. Taking a new step, uttering a new word is what
-    they fear most.... But I am talking too much. It’s because I
-    chatter that I do nothing. Or perhaps it is that I chatter
-    because I do nothing. I’ve learned to chatter this last month,
-    lying for days together in my den thinking... of Jack the
-    Giant-killer. Why am I going there now? Am I capable of that?
-    Is that serious? It is not serious at all. It’s simply a fantasy
-    to amuse myself; a plaything! Yes, maybe it is a plaything.”
+    <strong>Original source:</strong> The American, probably more than any other man, is prone to be apologetic about the trade he follows. He seldom believes that it is quite worthy of his virtues and talents; almost always he thinks that he would have adorned something far gaudier. Unfortunately, it is not always possible for him to escape, or even for him to dream plausibly of escaping, so he soothes himself by assuring himself that he belongs to a superior section of his craft, and very often he invents a sonorous name to set himself off from the herd. Here we glimpse the origin of a multitude of characteristic American euphemisms, e.g., mortician for undertaker, realtor for real-estate agent, electragist for electrical contractor ... so on (Mencken 284).
   </p>
 
   <p>
-    The heat in the street was terrible: and the airlessness, the
-    bustle and the plaster, scaffolding, bricks, and dust all
-    about him, and that special Petersburg stench, so familiar to
-    all who are unable to get out of town in summer—all worked
-    painfully upon the young man’s already overwrought nerves.
-    The insufferable stench from the pot-houses, which are
-    particularly numerous in that part of the town, and the
-    drunken men whom he met continually, although it was a working
-    day, completed the revolting misery of the picture. An expression
-    of the profoundest disgust gleamed for a moment in the young
-    man’s refined face. He was, by the way, exceptionally handsome,
-    above the average in height, slim, well-built, with beautiful
-    dark eyes and dark brown hair. Soon he sank into deep thought,
-    or more accurately speaking into a complete blankness of mind;
-    he walked along not observing what was about him and not caring
-    to observe it. From time to time, he would mutter something,
-    from the habit of talking to himself, to which he had just
-    confessed.
-
-    <span title="В эту же минуту он и сам сознавал, что мысли его
-    порою мешаются и что он очень слаб: второй день как уж он
-    почти совсем ничего не ел.">
-    At these moments he would become conscious that
-    his ideas were sometimes in a tangle and that he was very weak;
-    for two days he had scarcely tasted food.</span>
+      <strong>Author 1:</strong> As Mencken (284) says, “The American, probably more than any other
+man, is prone to be apologetic about the trade he follows.” <br><span title='Acceptable. The author uses quotation marks to indicate Mencken’s exact words, and cites the source.'>HINT</span>
   </p>
 
+  <p>
+      <strong>Author 2:</strong> As Mencken (284) says, the American believes that he would have <span title='Plagiarism. Although a citation appears, this section paraphrases the original too closely.'>adorned something gaudier</span>, so he soothes himself by inventing <span title='Plagiarism. Although a citation appears, this section paraphrases the original too closely.'>a sonorous name to set himself off from the herd.</span><br><span title='Float your cursor over sections of the text to find the answer.'>HINT</span>
+  </p>
+
+  <p>
+      <strong>Author 3:</strong> Mencken (284) explains the origin of these professional euphemisms as lying in the American’s vanity; the American feels that he is really better than his profession, but since he cannot escape it, he tries to make it at least sound worthy of him.<br><span title='Acceptable. The author properly paraphrases and cites the source.'>HINT</span>
+  </p>
+
+  <p>
+    <h4>Bibliography:</h4> Mencken, H. L. <i>The American Language: An Inquiry into the Development of English in the United States.</i> 4th ed., Alfred A. Knopf, 1936.
+  </p>
 
   <script>
     tippy('span, a');
